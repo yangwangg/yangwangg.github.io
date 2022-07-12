@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Yang Wang, personal webpage">
+    <meta name="description" content="Yang Wang's personal webpage">
+    <link rel="shortcut icon" href="_img/tuk_logo.jpg">
+    <title>Yang Wang, Student at TU Kaiserslautern</title>
+    <style>
+        /* a.home {
+            font-size: 20px;
+            font-weight: 100;
+            color: dimgrey;
+            margin-top: 30px;
+            margin-left: 150px;
+            float: inline-start;
+        } */
+
+        div {
+            /* background-color: */
+        }
+
+        p {
+            font-family: 'Times New Roman';
+            color: dimgray;
+            font-size: 16px;
+        }
+
+        em {
+            color: steelblue;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- empty -->
+    <div style=" height: 1200px; width:12%; float: left;">
+    </div>
+
+    <div id="name" style=" height:100px;width:40%;float: left;">
+        <p class="username" style="color: dimgray; font-size: 40px; margin-left: 30px;">Yang Wang
+        </p>
+    </div>
+
+    <!-- navigation -->
+    <div id="navitation" style="  height:100px;width:36%; float: left;">
+        <p style="color:steelblue;font-size: 17px; float: right; margin-top:65px;">
+            [<u>Projects</u>]
+        </p>
+        <p style="color:steelblue; font-size: 17px; float: right; margin-top:65px;margin-right: 12px;">
+            [<u>Email</u>]
+        </p>
+        <p style="color:steelblue; font-size: 17px; float: right; margin-top:65px;margin-right: 12px;">
+            [<u>CV</u>]
+        </p>
+    </div>
+
+    <!-- photo -->
+    <div id="photo" style=" height:300px;width:20%;float: left;">
+        <img src="_img/photo.jpeg" alt="An image of yang wang" style="width: 250px;border-radius: 50px;
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 100px;
+        object-fit: cover;float: left;">
+    </div>
+
+
+    <!-- description -->
+    <div id="description" style="height:300px;width:56%; float: left;">
+
+        <p class="description" style="margin-top:70px; color:dimgray">Welcome to my webpage!</p>
+        <p class="description" style="margin-top:40px;color:dimgray">I am a graduate student at the Technical
+            University of Kaiserslautern, Germany,
+            majoring
+            in
+            Electrical and
+            Computer Engineering focusing on Automatic Control. I received my BSc degree in Automation from Tomsk
+            Polytechnic
+            University, Russia.</p>
+        <p>
+            My current research interest lies in learning-based control, machine learning,
+            optimization and robotcis.
+        </p>
+    </div>
+
+    <!-- news title -->
+    <div id="news-title" style=" height:100px;width:20%;float: left;">
+        <p style="font-size:22px; color:dimgray;">News</p>
+        <!-- seperation -->
+        <hr width="250px" align="left" noshade="solid" size="0.5">
+
+    </div>
+
+    <!-- project title -->
+    <div id="project-title" style=" height:100px;width:56%; float: left;">
+        <p style="font-size:22px; color:dimgray;">Research</p>
+        <hr width="100%" align="left" noshade="solid" size="0.5">
+    </div>
+
+    <!-- news -->
+    <div style="width: 20%;float: left;">
+        <p style="width: 250px;">
+            - Currently looking for a Ph.D. position.<br /><br />
+            - May. 2022 Received MSc in TU Kaiserslautern, Germany.<br /><br />
+            - Oct. 2021 Start master's thesis at Automatic Control Lab, EPFL.<br /><br />
+            - Mar. 2021 Start an exchange semester at UPC in Automatic Control and Robotics.<br><br>
+            - Sept. 2019 Move to TU Kaiserslautern.<br><br>
+            - Aug. 2018 Received BSc in Tomsk Polytechnic University, Russia.<br>
+        </p>
+    </div>
+
+    <!-- research -->
+    <div style=" width:56%; float: left;">
+        <img src="_img/Trajectory_SLS.jpg" alt="trajectory_SLS"
+            style="width:30%;object-fit:cover;margin-right: 3%; float: left;">
+        <p style=" float: left; width: 67%; height: 220px; margin-top: 2px;">
+            <b> Master's Thesis: Develop a black-box safe optimization algorithm </b><br><br>
+            <b> Yang Wang</b>, Baiwei Guo, Giancarlo Ferrari Trecate<br /><br />
+            Online optimization for unknown dynamic systems recently attracts increasing attention. Safety during
+            the
+            online optimization process becomes critical in various fields of application, e.g. robotic platforms,
+            biomedical applications, electric nets, etc. We design a black-box safe optimization algorithm for
+            potentially non-linear, non-convex systems extending the line search scheme. The algorithm enjoys
+            scalability and fast convergence speed.
+        </p>
+
+        <video autoplay controls src="_video/score+center point.ogv" alt="trajectory_SLS"
+            style=" width:30%;height: 250px;object-fit:cover;margin-right: 3%;float: left;"></video>
+
+        <p style=" float: left;width: 67%;height: 270px;margin-top: 2px;">
+            <b> Project: Map exploration for mobile robots in unknown environments</b><br><br>
+            <b>Yang Wang</b><br><br>
+            Developed a map exploration algorithm for mobile robots in unknown environments, optimized the
+            exploration
+            performance by maximizing a designed reward function and implemented the algorithm in simulations on ROS
+        </p>
+
+        <video autoplay controls src="_video/ROS_FINAL_WORK_DEMO.mp4" alt="trajectory_SLS"
+            style=" width:30%;object-fit:cover;margin-right: 3%;float: left;"></video>
+
+        <p style=" float: left;width: 67%;margin-top: 2px;">
+            <b> Project: UR3 robotic arm for chess gaming
+            </b><br><br>
+            <b>Yang Wang</b><br><br>
+            Developed a UR3 robotic arm control system for playing chess games, including designing a sensing module
+            using a depth camera, a motion planning and collision check module, and communication and action execution
+            modules
+
+        </p>
+    </div>
+</body>
+
+</html>
