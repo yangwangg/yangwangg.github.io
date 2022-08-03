@@ -66,7 +66,7 @@
         <!-- profile -->
         <div style=" height:auto;width: 100%; margin-bottom: 2%; overflow: auto;">
             <!-- photo -->
-            <div id="photo" style=" height:auto; min-width:fit-content; margin-right: 3.5%; float: left;">
+            <div id="photo" style=" height:auto; min-width:fit-content; margin-right: 4.5%; float: left;">
                 <img src="image/photo.jpeg" alt="An image of yang wang"
                     style="width: 255px; border-radius: 50px;object-fit: contain; ">
             </div>
@@ -104,13 +104,13 @@
 
             <!-- news -->
             <div
-                style=" width:255px; height: auto; min-width:min-content; margin-right: 3.5%; margin-bottom: 200px; float: left;">
+                style=" width:255px; height: auto; min-width:min-content; margin-right: 4.5%; margin-bottom: 200px; float: left;">
                 <p style="font-size:22px; color:dimgray;">News</p>
                 <!-- seperation -->
                 <hr width=100% align="left" noshade="solid" size="0.5" style="margin-bottom:15px; margin-top:-5px;">
 
                 <p style="width: 255px; margin:0%">
-                    - Currently looking for a Ph.D. position.<br /><br />
+                    - Currently looking for a Ph.D. position in learning-based control and robotics.<br /><br />
                     - May. 2022 Received MSc at TU Kaiserslautern, Germany.<br /><br />
                     - Oct. 2021 Start master's thesis at Automatic Control Lab, EPFL.<br /><br />
                     - Mar. 2021 Start an exchange semester at UPC in Automatic Control and Robotics.<br><br>
@@ -121,70 +121,111 @@
             </div>
 
             <!-- research -->
-            <div id="Research" style=" width:70%; height: auto; min-width:70%; float: left;">
+            <div id="Research" style=" width:70%; height: auto; min-width:70%; margin-bottom: 20px; float: left;">
                 <p style="font-size:22px; color:dimgray;">Research</p>
                 <hr align="left" noshade="solid" size="0.5" style="margin-bottom:15px; margin-top:-5px;">
 
                 <!-- item 1 -->
-                <div style=" height:auto;width:auto; margin-bottom: 15px; overflow: auto;">
+                <div style=" height:auto;width:auto; margin-bottom: 10px; overflow: auto;">
 
                     <img src="image/Trajectory_SLS.jpg" alt="trajectory_SLS"
                         style="width:30%; height: auto; object-fit:contain; max-width: 30%; margin-right: 3%; float: left;">
 
 
                     <p style="margin:0%">
-                        <b> Master's Thesis: Develop a black-box safe optimization algorithm </b><br><br>
+                        <b> Master's Thesis: Model-Free Safe Exploration and Optimization</b><br><br>
                         <b> Yang Wang</b>, Baiwei Guo, Giancarlo Ferrari Trecate<br /><br />
-                        Online optimization for unknown dynamic systems recently attracts increasing attention.
+                        Online optimization for unknown dynamical systems recently attracts increasing attention.
                         Safety
                         during
-                        online optimization process becomes critical in various fields of application, e.g. robotic
-                        platforms,
-                        biomedical applications, electric nets, etc. We design a black-box safe optimization
+                        online optimization process becomes critical in various fields of application, such as
+                        biomedical treatments, electric nets, robotic
+                        platforms, etc. We designed a black-box safe optimization
                         algorithm
                         for
-                        potentially non-linear, non-convex systems extending a line search optimization scheme. The
+                        potentially non-linear, non-convex optimization problems extending the conventional line-search
+                        optimization
+                        scheme. The
                         algorithm
-                        enjoys
-                        scalability and fast convergence speed.
+                        enjoys scalability and fast convergence. <a href="document/Master's_thesis_sample_WANG.pdf"
+                            target="_blank"
+                            style="color:steelblue; font-size: 17px; font-family: 'Times New Roman', Times, serif; ">[<u>PDF</u>]</a>
                     </p>
                 </div>
 
                 <!-- item 2 -->
-                <div style=" height:auto;width:auto; margin-bottom:  15px; overflow: auto;">
+                <div style=" height:auto;width:auto; margin-bottom: 20px; overflow: auto;">
+                    <img src="image/neural ode.png" alt="neural ode"
+                        style="width:30%; height: 170px; object-fit:fill; max-width: 30%; margin-right: 2%; padding-left: 1%; float:left;">
+
+                    <p style="margin:0%">
+                        <b> Research assistant: Benchmarking a Neural ODE prediction model</b><br><br>
+                        Jonas Weigand, <b>Yang Wang</b><br /><br />
+                        Integrated multiple identification benchmarks into a continuous-time
+                        neural network prediction model for learning dynamical systems. The prediction model learns the
+                        system
+                        dynamics with dense neural
+                        networks and predicts states of dynamical systems utilizing an Eular or Runge-Kutta integrator.
+                    </p>
+                </div>
+
+                <!-- item 3 -->
+                <div style=" height:auto;width:auto; margin-bottom: 20px; overflow: auto;">
+                    <img src="image/seminar sample.png" alt="neural ode"
+                        style="width:30%; height: 170px; object-fit:contain; max-width: 30%; margin-right: 3%; float:left;">
+
+                    <p style="margin:0%">
+                        <b> Dynamic movement primitives - Learning movement from demonstration</b><br><br>
+                        <b> Yang Wang</b>, Min Wu<br /><br />
+                        Studied the Dynamic Movement Primitives (DMPs) framework for movement reproduction and
+                        generalization and proposed an online obstacle avoidance strategy integrated into the
+                        traditional DMPs
+                        formulation with a dynamic potenfial field. <a
+                            href="document/Dynamic_Movement_Primitives_Learning_Movement_from_Demonstration_and_Obstacle_Avoidance_with_Potential_Fields.pdf"
+                            target="_blank"
+                            style="color:steelblue; font-size: 17px; font-family: 'Times New Roman', Times, serif; ">[<u>PDF</u>]</a>
+                    </p>
+                </div>
+
+                <!-- item 4 -->
+                <div style=" height:auto;width:auto; margin-bottom: 25px; overflow: auto;">
 
                     <video autoplay controls loop muted src="video/score+center point.ogv" alt="trajectory_SLS"
                         style="width:30%; height: auto; object-fit:cover; max-width: 30%; margin-right: 3%; float: left;"></video>
 
                     <p style="margin:0%">
                         <b> Project: Map exploration for mobile robots in unknown environments</b><br><br>
-                        <b>Yang Wang</b><br><br>
-                        Developed a map exploration algorithm for mobile robots in unknown environments, optimized
+                        <b>Yang Wang</b>, Chengli Liu, Zhaoqi Li<br><br>
+                        Developed a map exploration algorithm for mobile robots in unknown environments. Optimized
                         the
                         exploration
-                        performance by maximizing a designed reward function and implemented the algorithm in
+                        performance by designing and optimizing a reward function and implemented the algorithm in
                         simulations on
                         ROS.
                     </p>
                 </div>
-                <!-- item 3 -->
-                <div style=" height:auto;width:auto; margin-bottom: 15px; overflow: auto;">
+                <!-- item 5 -->
+                <div style=" height:auto;width:auto; margin-bottom: 25px; overflow: auto;">
                     <video autoplay controls loop muted src="video/ROS_FINAL_WORK_DEMO.mp4" alt="trajectory_SLS"
                         style="width:30%; height: auto; object-fit:cover; max-width: 30%; margin-right: 3%; float: left;"></video>
 
                     <p style="margin:0%">
                         <b>Project: UR3 robotic arm for chess gaming</b><br><br>
-                        <b>Yang Wang</b><br><br>
+                        <b>Yang Wang</b>, Raphael Atlan<br><br>
                         Developed a UR3 robotic arm control system for playing chess games, including designing a
                         sensing
                         module
-                        using a depth camera, a motion planning and collision check module, and communication and
+                        with a depth camera, a motion planning and collision check module, and communication and
                         action
                         execution
-                        modules.
+                        modules. <a href="document/ROS_Project_report_Yang_WANG_Raphael_ATLAN.pdf" target="_blank"
+                            style="color:steelblue; font-size: 17px; font-family: 'Times New Roman', Times, serif; ">[<u>PDF</u>]</a>
 
                     </p>
                 </div>
+
+
+
             </div>
 
         </div>
